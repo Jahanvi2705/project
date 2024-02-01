@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin-left: 15px;
+}
+
+.logo {
+    margin-right: 385px;
+    margin-left: 30px;
+}
+
+.nav-item {
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    text-align: right;
+    font-size: larger;
+    margin: 16px;
+    z-index: 3;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    color: #00060f !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav-item active {
+    color: rgb(244, 141, 38) !important;
+}
+
+.sign {
+    width: 95px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #939598;
+    left: 1333px;
+    top: 48px;
+    position: absolute;
+    z-index: 8;
+    border: none;
+    color: white !important;
+}
+
+.sign:hover {
+    background-color: #00060f;
+}
+
+#blue {
+    left: 586px;
+    top: -53px;
+    position: absolute;
+    width: 1020px;
+    height: 881px;
+    z-index: 2;
+}
+
+#blur {
+    left: 534px;
+    top: -24px;
+    position: absolute;
+    width: 1000px;
+    height: 835px;
+    z-index: 1;
+}
+
+#ele {
+    left: 939px;
+    top: 153px;
+    position: absolute;
+    width: 586px;
+    height: 564px;
+    z-index: 3;
+}
+
+#left h1 {
+    left: 150px;
+    top: 329px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 51px;
+    color: #005abc;
+    font-weight: 300;
+    /* font-family: "Raleway"; */
+}
+
+#left h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #005abc;
+    font-weight: 400;
+    /* font-family: "Raleway"; */
+    left: 150px;
+    top: 434px;
+    position: absolute;
+}
+
+#sec h1 {
+    left: 310px;
+    top: 855px;
+    position: absolute;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    text-align: center;
+}
+
+#sec span {
+    color: #005abc;
+}
+
+.btn {
+    left: 289px;
+    top: 986px;
+    position: absolute;
+    z-index: 11;
+    width: 200px;
+    height: 39px;
+    border-radius: 5px;
+    color: white !important;
+    background-image: linear-gradient(0deg, #2d3191 0%, #0071bb 100%);
+}
+
+.btn:hover {
+    background-image: linear-gradient(0deg, #9302a9 0%, #7606a7 100%);
+}
+
+#sec #i {
+    left: 527px;
+    top: 988px;
+    position: absolute;
+    font-size: 18px;
+    line-height: 36px;
+    color: #0072bc;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    text-align: center;
+    z-index: 13;
+}
+
+#sec #e {
+    font-size: 18px;
+    line-height: 36px;
+    color: #0072bc;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    text-align: center;
+    left: 717px;
+    top: 988px;
+    position: absolute;
+    z-index: 15;
+}
+
+#sec #l {
+    font-size: 18px;
+    line-height: 36px;
+    color: #0072bc;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    /* text-align: center; */
+    left: 956px;
+    top: 988px;
+    position: absolute;
+    z-index: 17;
+}
+
+#sec #o {
+    left: 1176px;
+    top: 988px;
+    position: absolute;
+    z-index: 19;
+    font-size: 18px;
+    line-height: 36px;
+    color: #0072bc;
+    font-weight: 600;
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        width: auto;
+    }
+
+    #blue #blur #ele {
+        height: 700px;
+    }
+}
+
+#one {
+    left: 240px;
+    top: 1213px;
+    position: absolute;
+    width: 286px;
+    height: 161px;
+    z-index: 24;
+}
+
+.cir {
+    left: 240px;
+    top: 1213px;
+    /* position: absolute; */
+    width: 286px;
+    height: 161px;
+    z-index: 30;
+}
+
+.ser1 h1 {
+    left: 598px;
+    top: 1200px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0072bc;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+}
+
+.ser1 p {
+    width: 539px;
+    height: 98px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #10113e;
+    font-weight: 400;
+    /* font-family: "Raleway"; */
+    left: 600px;
+    top: 1243px;
+    position: absolute;
+}
+
+#copy {
+    left: 932px;
+    top: 1328px;
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    z-index: 26;
+    opacity: 0.655;
+}
+
+#two {
+    left: 1072px;
+    top: 1500px;
+    position: absolute;
+    width: 289px;
+    height: 189px;
+}
+
+#read {
+    left: 603px;
+    top: 1368px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 26px;
+    color: #2e3192;
+    font-weight: 600;
+    font-family: "Raleway";
+    border: none;
+    background: transparent;
+}
+
+#read1 {
+    left: 492px;
+    top: 1659px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 26px;
+    color: #2e3192;
+    font-weight: 600;
+    font-family: "Raleway";
+    border: none;
+    background: transparent;
+}
+
+#read2 {
+    left: 603px;
+    top: 1945px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 26px;
+    color: #2e3192;
+    font-weight: 600;
+    font-family: "Raleway";
+    border: none;
+    background: transparent;
+}
+
+.ser2 h1 {
+    left: 489px;
+    top: 1500px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0072bc;
+    font-weight: 600;
+}
+
+.ser2 p {
+    left: 489px;
+    top: 1545px;
+    position: absolute;
+    width: 538px;
+    height: 94px;
+    z-index: 28;
+}
+
+#three {
+    left: 283px;
+    top: 1782px;
+    position: absolute;
+    width: 180px;
+    height: 189px;
+}
+
+.ser3 h1 {
+    left: 600px;
+    top: 1782px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0072bc;
+    font-weight: 600;
+}
+
+.ser3 p {
+    left: 600px;
+    top: 1830px;
+    position: absolute;
+    width: 531px;
+    height: 94px;
+}
+
+.back {
+    left: 0;
+    top: 2050px;
+    position: absolute;
+    width: 1600px;
+    height: 1345px;
+    background-color: #e9f1f7;
+}
+
+#four {
+    left: 1015px;
+    top: 55px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+
+.ser4 h1 {
+    top: 55px;
+    left: 200px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #005f9e;
+    font-weight: 600;
+}
+
+.ser4 p {
+    left: 200px;
+    top: 100px;
+    position: absolute;
+    width: 531px;
+    height: 94px;
+}
+
+#five {
+    left: 190px;
+    top: 350px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+
+.ser5 h1 {
+    top: 350px;
+    left: 713px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #005f9e;
+    font-weight: 600;
+}
+
+.ser5 p {
+    top: 390px;
+    left: 713px;
+    position: absolute;
+    width: 531px;
+    height: 94px;
+}
+
+#six {
+    left: 1015px;
+    top: 615px;
+    position: absolute;
+    width: 280px;
+    height: 180px;
+}
+
+.ser6 h1 {
+    top: 615px;
+    left: 200px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 30px;
+    color: #005f9e;
+    font-weight: 600;
+}
+
+.ser6 p {
+    left: 200px;
+    top: 653px;
+    position: absolute;
+    width: 531px;
+    height: 94px;
+}
